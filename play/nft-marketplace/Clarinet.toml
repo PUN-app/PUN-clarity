@@ -8,7 +8,7 @@ depends_on = ["sip009-nft-trait"]
 
 [contracts.marketplace]
 path = "contracts/marketplace.clar"
-depends_on = []
+depends_on = ["mantis-token"]
 
 [contracts.sip009-nft-trait]
 path = "contracts/sip009-nft-trait.clar"
