@@ -1,0 +1,15 @@
+[project]
+name = "nft-marketplace"
+requirements = []
+costs_version = 1
+[contracts.mantis-token]
+path = "contracts/mantis-token.clar"
+depends_on = ["sip009-nft-trait"]
+
+[contracts.marketplace]
+path = "contracts/marketplace.clar"
+depends_on = []
+
+[contracts.sip009-nft-trait]
+path = "contracts/sip009-nft-trait.clar"
+depends_on = []
