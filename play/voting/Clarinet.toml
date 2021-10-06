@@ -1,0 +1,7 @@
+[project]
+name = "voting"
+requirements = []
+costs_version = 1
+[contracts.voting-core-v1]
+path = "contracts/voting-core-v1.clar"
+depends_on = []
