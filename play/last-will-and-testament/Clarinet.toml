@@ -1,0 +1,7 @@
+[project]
+name = "last-will-and-testiment"
+requirements = []
+costs_version = 1
+[contracts.will]
+path = "contracts/will.clar"
+depends_on = []
